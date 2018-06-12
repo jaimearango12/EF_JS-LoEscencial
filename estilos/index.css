@@ -1,0 +1,23 @@
+#contenedor{
+    background-color: aquamarine;
+    width: 70%;
+    height: 100%;
+    margin: 0 15% 0 15%;
+}
+h1{
+    text-align: center;   
+}
+#principal{
+    margin-left: 43%;
+}
+table{
+    text-align: center;
+    margin-left: 33%;
+}
+button{
+    background-color: blue;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0% 15% 0% 0%;
+}
