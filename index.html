@@ -11,13 +11,22 @@
 <body>
     <div id="contenedor">
         <h1>Bienvenido a las Calificaciones</h1>
-        <button id="principal">Mostrar Calificaciones</button>
+        <button id="principal" onclick="mostrarCalificaciones()">Mostrar Calificaciones</button>
+        <p id="calificaciones"></p>
         <br>
         <table>
             <tr>
-                <td><button>Mostrar Promedio</button></td>
-                <td><button>Mostrar mejor Nota</button></td>
-                <td><button>Mostrar peor Nota</button></td>
+                <td>
+                <button onclick="promedio()">Mostrar Promedio</button> <br>
+                <p id="promedio"></p>
+                </td>
+                <td>
+                <button onclick="mejorNota()">Mostrar mejor Nota</button>
+                <p id="bnota"></p>
+                </td>
+                <td>
+                <button onclick="peorNota()">Mostrar peor Nota</button>
+                <p id="wnota"></p></td>
             </tr>
         </table>
     </div>
